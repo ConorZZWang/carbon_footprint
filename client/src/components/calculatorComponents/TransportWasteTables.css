@@ -1,0 +1,38 @@
+.tableTransport,
+.tableWaste {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Ensuring all tables have consistent styling */
+.tableTransport th,
+.tableWaste th,
+.tableTransport td,
+.tableWaste td {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    width: 220px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Adding a background color for header row */
+.tableTransport th,
+.tableWaste th {
+    background-color: #5f8d6485;
+    font-weight: bold;
+}
+
+/* Alternating row colors for better readability */
+.tableTransport tr:nth-child(even),
+.tableWaste tr:nth-child(even) {
+    background-color: #a4d2ac49;
+}

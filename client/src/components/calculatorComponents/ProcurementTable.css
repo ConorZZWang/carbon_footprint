@@ -1,0 +1,36 @@
+.tableProcurement {
+    width: 100%;
+    max-height: 300px; 
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.tableProcurement table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; 
+}
+
+.tableProcurement th,
+.tableProcurement td {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+    min-width: 100px; 
+}
+
+.tableProcurement th {
+    background-color: #5f8d6485;
+    font-weight: bold;
+}
+
+.tableProcurement tr:nth-child(even) {
+    background-color: #a4d2ac49;
+}

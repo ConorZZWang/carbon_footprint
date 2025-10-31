@@ -1,0 +1,30 @@
+/*
+ScrollImages.css
+.scroll-images-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* Adjust as needed */
+/*overflow: hidden;*/
+/*margin-bottom: 20px;*/
+/* Add space below the scroll images */
+
+
+
+/*
+.image-group {
+    display: flex;
+    transition: transform 0.1s ease;
+}
+
+/*
+.image {
+    width: 150px
+    height: 150px;
+    object-fit: cover;
+    margin: 0 20px;
+    transition: transform 0.1s ease;
+}
+*/

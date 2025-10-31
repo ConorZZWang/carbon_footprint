@@ -1,0 +1,39 @@
+.tableArea {
+    width: 100%;
+    max-height: 300px; 
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.tableArea table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.tableArea th,
+.tableArea td {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+    min-width: 120px;  /* Reduced column width */
+    white-space: nowrap;  
+    overflow: hidden;         
+    text-overflow: ellipsis;  
+}
+
+.tableArea th {
+    background-color: #5f8d6485;
+    font-weight: bold;
+}
+
+.tableArea tr:nth-child(even) {
+    background-color: #a4d2ac49;
+}

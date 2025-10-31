@@ -1,0 +1,397 @@
+/* MaintainerDashboard.css */
+
+/* Main layout structure */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('../images/background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
+  padding-top: 100px;
+}
+
+/* Toolbar styles */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: rgba(217, 217, 217, 0.5);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px solid #878787;
+}
+
+.toolbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+/* Main content area with scrolling */
+.scrolling-content {
+  height: 100%;
+  overflow-y: auto;
+  padding: 10px;
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 20%);
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 20%);
+}
+
+/* Hero section styles */
+.hero-section {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.hero-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.hero-description {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Card container layout */
+.dashboard-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dashboard-panel {
+  width: 320px;
+  height: 700px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-panel:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.panel-header {
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid #E0E0E0;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.panel-content {
+  padding: 15px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Legacy dashboard card (for compatibility) */
+.dashboard-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  width: 80%;
+  max-width: 2100px;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Container styles (compatibility with dashboard layout) */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  max-height: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.left {
+  width: 25%;
+  margin-right: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.middle {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.right {
+  width: 25%;
+  border-left: 1px solid #ccc;
+}
+
+.section-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Control elements */
+.control-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.dropdown-select {
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Chart container */
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 10px;
+}
+
+/* Button styles */
+.action-btn {
+  white-space: nowrap;
+  background-color: #44803F;
+  color: white;
+  font-size: 18px;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.action-btn:hover {
+  background-color: #218838;
+}
+
+.action-btn:active {
+  background-color: #1e7e34;
+  transform: scale(0.98);
+}
+
+/* Compact button */
+.action-btn.compact {
+  font-size: 14px;
+  padding: 8px 12px;
+  max-height: 32px;
+  min-width: 100px;
+}
+
+/* Notification styles */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.notification-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 40px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  color: #333;
+  animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Table styles */
+#benchmark-table {
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+}
+
+/* Factor control elements */
+.data-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: auto;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  max-height: 100%;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Settings dropdown */
+.settings-container {
+  position: relative;
+  display: inline-block;
+}
+
+.settings-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  background: none;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .dashboard-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashboard-panel {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .toolbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .toolbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .action-btn {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+
+
+  }
+}
+
+/* Smaller navigation buttons */
+.nav-links .action-btn {
+  font-size: 16px;
+  padding: 8px 12px;
+  min-width: 120px;
+}

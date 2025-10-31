@@ -1,0 +1,71 @@
+Meet Richard, a Lecturer at the University of Glasgow.
+Age: 35
+Job: Lecturer in Biology at the University of Glasgow
+Tech Skills: Comfortable with computers, but no coding knowledge
+
+About Richard:
+Richard is passionate about the environment and wants to make a difference at his university. He's always looking for ways to reduce his department's carbon footprint but finds it tricky to keep track of all the data.
+
+A Day in Richard's Life:
+• Teaches classes and supervises lab work
+• Attends faculty meetings
+• Tries to encourage students and colleagues to be more eco-friendly
+• Struggles to find time to manually calculate the department's emissions
+
+Goals:
+• Monitor department's emissions easily
+• Compare performance across departments and institutions
+• Track emissions changes over time
+• Demonstrate impact of eco-initiatives
+
+Frustrations:
+• Difficulty interpreting emissions data
+• Lack of easy comparison tools
+• Limited time for complex software
+• Concern about university's carbon footprint
+
+Richard's Needs from the Emissions Tool:
+• Simple login with university email
+• User-friendly interface for subject-specific data
+• Clear comparisons between universities and subjects
+• Year-on-year emissions tracking
+• Easy-to-understand visualizations
+• Report export function
+
+Typical Usage Scenario:
+• Logs in with university email
+• Views department's emissions dashboard
+• Compares data with other departments and universities
+• Checks yearly emissions trends
+• Exports PDF report for faculty meeting
+• Appreciates the clear impact of energy-saving measures
+
+Richard's Quotes:
+• "I just want to be able to log in and see how we're doing with our emissions, without having to faff about with complicated graphs or numbers."
+• "It'd be brilliant to see how our department stacks up against others. Are we doing better or worse than the Chemistry lot next door?"
+• "I need to be able to show my colleagues how we're improving year on year. If I can't explain it easily, they'll lose interest!"
+
+
+User persona (Adam)
+
+Persona:
+	⁃	Technical persona  
+	⁃	Name: Chloe Pal
+	⁃	Age: 30
+
+Background:
+Chloe is a PHD student who moved to Glasgow a couple of months ago and just started out her research in UoG focusing on sustainable agricultural practices. She was told that she had to use the Carbon Footprint calculator website in order to see the environmental impact of her research. 
+
+Goals:
+	1.	To use the Carbon Footprint calculator to track and analyze the environmental impact of her research activities.
+	2.	It is important for her that her data overtime is saved in order to be able to see how her score decreases over time. 
+	3.	She understands the impact that her research has and she wants to be able to communicate her research’s sustainability efforts to peers and stakeholders.
+	4.	She previously attended Kings Collage in London, it is important for Chloe to stay in touch with them and be able to see the environmental scores of the PHD students there and also others in her field in order for her to understand where a good score ranges
+
+Pain points:
+	1.	Worries about losing historical data if the site experiences technical issues or changes.
+	2.	She wants to use this took efficiently and quickly with limited time to dedicate to learning the platform due to her research commitments and socializing. 
+	3.	She fears she might not be able to find values that are asked from the calculator, she wants to have all the resources available or built in so she would not need to go research on her own for universal values  
+
+Motivation: 
+Chloe wants her research to be impactful, she is young and wants to make a good impression with work that she is passionate about. She understands that a high carbon footprint score on the calculator could reflect poorly on her research, so she’s motivated to reduce that score. By documenting her efforts to minimize her environmental impact, she aims to demonstrate her commitment to sustainability and contribute valuable insights to the field.

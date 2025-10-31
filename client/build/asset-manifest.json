@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8b2de55.css",
+    "main.js": "/static/js/main.c053a071.js",
+    "static/js/535.2f74d3a5.chunk.js": "/static/js/535.2f74d3a5.chunk.js",
+    "static/media/login_signup.jpg": "/static/media/login_signup.633bbcbf513d9ff232e2.jpg",
+    "static/media/background.jpeg": "/static/media/background.8f95163bd86e77bc78c0.jpeg",
+    "static/media/overheadtress.jpg": "/static/media/overheadtress.0c0b17a6b6475e38ef58.jpg",
+    "static/media/microscope.jpg": "/static/media/microscope.34f5685fd58f7231f4f5.jpg",
+    "static/media/mistyforest.jpg": "/static/media/mistyforest.5c5af27887722619ed49.jpg",
+    "static/media/two_people.webp": "/static/media/two_people.b381f49300c6f36516a0.webp",
+    "static/media/logo.png": "/static/media/logo.d3290936af41c7376057.png",
+    "static/media/rockyriver.jpg": "/static/media/rockyriver.cfa96ab65773076ac8b5.jpg",
+    "static/media/uni_logo.png": "/static/media/uni_logo.5ed82316cefb6087d00a.png",
+    "static/media/lightBulb.jpg": "/static/media/lightBulb.a3fac7f4381ad6c173b5.jpg",
+    "static/media/tubes.jpeg": "/static/media/tubes.41538fb5ab2edd282624.jpeg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.a8b2de55.css.map": "/static/css/main.a8b2de55.css.map",
+    "main.c053a071.js.map": "/static/js/main.c053a071.js.map",
+    "535.2f74d3a5.chunk.js.map": "/static/js/535.2f74d3a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8b2de55.css",
+    "static/js/main.c053a071.js"
+  ]
+}
